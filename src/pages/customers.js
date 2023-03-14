@@ -199,7 +199,7 @@ const Page = () => {
     <>
       <Head>
         <title>
-          Customers | Devias Kit
+          Admins || MyFinance App
         </title>
       </Head>
       <Box
@@ -218,7 +218,7 @@ const Page = () => {
             >
               <Stack spacing={1}>
                 <Typography variant="h4">
-                  Customers
+                  Admins
                 </Typography>
                 <Stack
                   alignItems="center"
@@ -257,6 +257,16 @@ const Page = () => {
                   variant="contained"
                 >
                   Add
+                </Button>
+                <Button
+                  startIcon={(
+                    <SvgIcon fontSize="small">
+                      <PlusIcon />
+                    </SvgIcon>
+                  )}
+                  variant="contained"
+                >
+                  Delete
                 </Button>
               </div>
             </Stack>

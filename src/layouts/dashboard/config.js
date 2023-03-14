@@ -19,7 +19,7 @@ export const items = [
     )
   },
   {
-    title: 'Customers',
+    title: 'Admins',
     path: '/customers',
     icon: (
       <SvgIcon fontSize="small">
@@ -54,31 +54,26 @@ export const items = [
       </SvgIcon>
     )
   },
+
   {
-    title: 'Login',
-    path: '/auth/login',
+    title: 'Transactions',
+    path: '/transactions',
     icon: (
       <SvgIcon fontSize="small">
-        <LockClosedIcon />
+        <CogIcon />
       </SvgIcon>
     )
   },
+ 
   {
-    title: 'Register',
-    path: '/auth/register',
+    title: 'Expenses',
+    path: '/expenses',
     icon: (
       <SvgIcon fontSize="small">
-        <UserPlusIcon />
+        <CogIcon />
       </SvgIcon>
     )
   },
-  {
-    title: 'Error',
-    path: '/404',
-    icon: (
-      <SvgIcon fontSize="small">
-        <XCircleIcon />
-      </SvgIcon>
-    )
-  }
+ 
+ 
 ];

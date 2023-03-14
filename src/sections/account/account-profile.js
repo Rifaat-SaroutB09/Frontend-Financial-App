@@ -11,11 +11,11 @@ import {
 
 const user = {
   avatar: '/assets/avatars/avatar-anika-visser.png',
-  city: 'Los Angeles',
-  country: 'USA',
-  jobTitle: 'Senior Developer',
-  name: 'Anika Visser',
-  timezone: 'GTM-7'
+  city: 'Beirut',
+  country: 'Lebanon',
+  jobTitle: 'Full-Stack Developer',
+  name: 'Sarah Hachouch',
+  timezone: 'GMT +2 hours'
 };
 
 export const AccountProfile = () => (
